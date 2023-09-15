@@ -1,0 +1,15 @@
+.terms-header {
+  font-size: 28px;
+  margin: 25px;
+}
+
+.terms-details {
+  font-size: 20px;
+  margin: 5px;
+}
+
+li {
+  font-size: 20px;
+  margin: 10px;
+  list-style: disc;
+}

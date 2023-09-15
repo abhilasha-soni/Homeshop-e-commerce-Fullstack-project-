@@ -1,0 +1,35 @@
+.contact-container{
+  width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* column-count: 3; */
+    row-gap: 25px;
+}
+
+.contact-icon{
+  width: 300px;
+}
+.contact-form-details{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  column-count: 3;
+  row-gap: 25px;
+}
+.form-textfield{
+  width: 500px;
+}
+.contact-btn {
+  background-color: rgb(226, 88, 60);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  width: 200px;
+  height: 50px;
+  margin: 15px;
+  font-size: 24px;
+}

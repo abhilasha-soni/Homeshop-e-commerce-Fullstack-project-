@@ -1,0 +1,153 @@
+/* .cart-text {
+  font-size: large;
+} */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #2979ff;
+  color: white;
+}
+
+.products-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardGrid {
+  column-gap: 30px;
+  row-gap: 20px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.emptyDiv {
+  height: 200px;
+}
+
+.Loading {
+  width: 700px;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  margin: auto;
+}
+
+.MuiCardMedia-img {
+  object-fit: fit;
+  margin: auto;
+}
+
+.card-top {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cart-btn-addtocart {
+  height: 75px;
+  width: 270px;
+  background-color: rgb(226, 88, 60);
+  color: white;
+  margin: auto;
+  border-color:rgb(226, 88, 60);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  font-size: 32px;
+  padding-top: 6px;
+  box-shadow: none;
+}
+
+.product-details-card {
+  width: 1400;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+}
+.product-details-header{
+  font-size: 40px;
+  font-weight: bold;
+}
+.product-details-subheader{
+  font-size: 28px;
+}
+.product-details-price{
+  font-size: 40px;
+  color: rgb(155, 6, 6);
+  font-weight: bold;
+}
+.product-details-card-content{
+width: 600;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.alert {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.product_sort {
+  width: 700px;
+}
+.product_sort_box {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(226, 88, 60);
+  border-radius: 10px;
+}
+p {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.badge {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  position: absolute;
+  top: 240px;
+  left: 25px;
+  min-width: 100px;
+  height: 35px;
+  background-color: rgb(226, 88, 60);
+  justify-content: center;
+  align-content: center;
+  padding-top: 12;
+  color: white;
+}
+.quick-view-button{
+  height: 150px;
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      row-gap: 25px;
+      padding-top: 25px;
+}
+.quick-view-fav{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

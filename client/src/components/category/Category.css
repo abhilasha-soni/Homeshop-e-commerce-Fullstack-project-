@@ -1,0 +1,13 @@
+
+.categories-list{
+background-color: white;
+color: rgb(226, 88, 60);
+margin: 10px;
+}
+.category-container{
+
+width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,24 @@
+.location-container{
+    margin-top: 150px;
+}
+.location-block{
+  background-color:rgba(255, 189, 89, 0.594) ;
+  width: 450px;
+  padding: 30px;
+  border-radius: 25px;
+}
+.location-p{
+  font-size: 20px;
+  text-align: center;
+  color: brown;
+  margin: 0;
+  padding: 0;
+}
+.locations-grid{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 200px);
+      row-gap: 45px;
+     margin-left: 60px;
+     margin-bottom: 75px;
+}
